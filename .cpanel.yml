@@ -3,6 +3,7 @@
   tasks:
     - export DEPLOYPATH=/home2/fullcdhk/public_html/repairtag
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp success.html $DEPLOYPATH
     - /bin/cp -R _img $DEPLOYPATH
     - /bin/cp -R _css $DEPLOYPATH
     # Add _audio and _css if needed
