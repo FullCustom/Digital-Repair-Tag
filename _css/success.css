@@ -1,0 +1,29 @@
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+}
+header.bg-1{    
+    background-color: #f4a127;
+    color: #e5771e;
+    padding: 10px;
+}
+.bg-2 {
+    background-color: #ffecb4;
+    color: #5a3d2b;
+    padding: 10px;
+} 
+footer.bg-3{
+    background-color: #5a3d2b;
+    color: #75c8ae;
+    padding: 10px;
+}
+body{
+    background-color: #75c8ae;
+}
+<!--
+#75c8ae Blue
+#5a3d2b Brown
+#ffecb4 Tan
+#e5771e Orange
+#f4a127 Light Orange
+-->
