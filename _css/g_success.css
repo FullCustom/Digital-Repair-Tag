@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #5a3d2b;
+}
+header.bg-1 {
+    background-color: #e5771e;
+    color: #ffffff;
+    padding: 10px;
+}
+.bg-2 {
+    background-color: #ffecb4;
+    color: #5a3d2b;
+    padding: 10px;
+}
+footer.bg-3 {
+    background-color: #5a3d2b;
+    color: #75c8ae;
+    padding: 10px;
+}
+body {
+    background-color: #75c8ae;
+    color: #5a3d2b;
+}
