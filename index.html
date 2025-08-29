@@ -1,57 +1,88 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
 <head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-
-<!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Digital Repair Tag</title>
-
-	<link href="g_style.css" rel="stylesheet" type="text/css" />
-
+    <meta charset="UTF-8">
+    <title>Full Custom Music Repair</title>
+    <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
+    <meta name="robots" content="index, follow, noarchive, noimageindex">
+    <meta name="description" content="Full Custom Music Repair offers expert instrument repair services at 400 Market Street Rear, Lemoyne, PA 17043. Contact us at 717-761-0890 or info@fullcustommusic.com">
+    <meta name="keywords" content="music repair, instrument repair, Lemoyne PA, guitar repair, Full Custom Music Repair">
+    <meta name="author" content="Timothy Eisenacher">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="_css/g_success.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 </head>
 <body>
-<h1>Full Custom Music Repair</h1>
-<p>400 Market Street Rear</p>
-<p>Lemoyne, PA 17043</p>
-<p>717-761-0890</p>
-<p>info@fullcustommusic.com</p>
-<p>www.fullcustommusic.com</p>
-<p></p>
-<p></p>
-<div>
-<form action="html_form_send.php" method="post" name="htmlform">
-<fieldset><legend>Contact Info:</legend> First Name:<br />
-<input name="first_name" type="text" /><br />
-Last Name:<br />
-<input name="last_name" type="text" /><br />
-Street Address:<br />
-<input name="street_address" type="text" /><br />
-City:<br />
-<input name="city" type="text" /><br />
-State:<br />
-<input name="state" type="text" /><br />
-Zip:<br />
-<input name="zip" type="text" /><br />
-Email:<br />
-<input name="email" type="text" /><br />
-Phone Number:<br />
-<input name="telephone" type="text" /></fieldset>
-<fieldset><legend>Repair Info:</legend> Manufacturer:<br />
-<input name="manufacturer" type="text" /><br />
-Model:<br />
-<input name="model" type="text" /><br />
-Serial Number:<br />
-<input name="serial_number" type="text" /><br />
-Customer Comments:<br />
-<input name="comments" type="text" /></fieldset>
-<br />
-<input type="submit" value="Submit" /></form>
-</div>
-<p></p>
-<p></p>
-<p></p>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="https://1979.fullcustommusic.com">
+            <img src="_img/61294.png" alt="logo" class="logo-img"> | Full Custom Music Repair
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-label="Toggle navigation" title="Open or close menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.fullcustommusic.com">Main Site</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/fullcustommusic">Facebook</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.narwhalindustries.net">Narwhal Industries</a>
+                </li>    
+            </ul>
+        </div>  
+    </nav>
+    <header class="container-fluid bg-1 text-center">
+        <h1>Full Custom Music Repair</h1>
+        <p>400 Market Street Rear, Lemoyne, PA 17043 | 717-761-0890 | info@fullcustommusic.com</p>
+    </header>
+    <div class="container-fluid bg-2">
+        <div class="form">
+            <h2>Contact Info:</h2>
+            <form action="html_form_send.php" method="post">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" required><br>
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" placeholder="Enter your last name" required><br>
+                <label for="street_address">Street Address:</label>
+                <input type="text" id="street_address" name="street_address" placeholder="Enter your street address" required><br>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" placeholder="Enter your city" required><br>
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" placeholder="Enter your state" required><br>
+                <label for="zip">Zip:</label>
+                <input type="text" id="zip" name="zip" placeholder="Enter your zip code" required><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email" required><br>
+                <label for="telephone">Phone Number:</label>
+                <input type="text" id="telephone" name="telephone" placeholder="Enter your phone number" required><br>
+                <h2>Repair Info:</h2>
+                <label for="manufacturer">Manufacturer:</label>
+                <input type="text" id="manufacturer" name="manufacturer" placeholder="Enter manufacturer" required><br>
+                <label for="model">Model:</label>
+                <input type="text" id="model" name="model" placeholder="Enter model" required><br>
+                <label for="serial_number">Serial Number:</label>
+                <input type="text" id="serial_number" name="serial_number" placeholder="Enter serial number" required><br>
+                <label for="comments">Customer Comments:</label>
+                <textarea id="comments" name="comments" placeholder="Enter your comments" required class="form-control"></textarea><br>
+                <label for="submit_button" class="sr-only">Submit Repair Form</label>
+                <input type="submit" id="submit_button" value="Submit" title="Submit your repair form">
+            </form>
+        </div>
+    </div>
+    <footer class="container-fluid bg-3 text-center">
+        <p>&copy; 2025 Timothy Eisenacher. All rights reserved.</p>
+        <p>The internet thrives on handcrafted code by creators like you.</p>
+        <p>Learn how at <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+        <p>Spot an issue? <a href="https://github.com/FullCustom">Contribute on GitHub</a>.</p>
+        <p>Website enhanced with assistance from Grok, created by xAI.</p>
+    </footer>
 </body>
 </html>
