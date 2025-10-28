@@ -56,17 +56,25 @@
 </div>
 </header>
 <div class="container-fluid bg-2">
-<h1>Your Submission Was Successful!</h1>
-    <p>You should receive a automated response with a repair authoriztion in about 20 minutes.</p>
-    <img src="_img/stare.gif" alt="staring contest">
-    <hr>
-<h2>While You wait</h2>
-<p>Play Narwhal-2048 or check out <a href="https://1979.fullcustommusic.com/">Tales of the Absurd!</a></p>
+<!-- Inside <div class="container-fluid bg-2"> -->
+<h1 class="success-title">Repair Tag Submitted!</h1>
+<p class="success-msg">You’ll get an automated authorization email in ~20 minutes.</p>
+<div class="stare-container">
+    <img src="_img/stare.gif" alt="Staring narwhal" class="stare-gif">
+</div>
+<hr class="divider">
+
+<h2 class="play-title">While You Wait…</h2>
+<p class="play-text">
+    Play <strong>Narwhal-2048</strong> or explore 
+    <a href="https://1979.fullcustommusic.com/" target="_blank">Tales of the Absurd!</a>
+</p>
+
 <div class="game">
-  <!--2048 Game-->
     <div id="score">Score: 0</div>
-    <canvas id="gameCanvas" width="400" height="400"></canvas>
-    <div id="game-over">Game Over! Tap or Press Enter to Restart</div>
+    <canvas id="gameCanvas"></canvas>
+    <div id="game-over">Game Over!<br><small>Tap or press Enter to restart</small></div>
+</div>
 </div>
 <div>
   <!--Sellable Ad Space-->
