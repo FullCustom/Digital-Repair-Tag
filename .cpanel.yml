@@ -6,4 +6,5 @@
     - /bin/cp success.html $DEPLOYPATH
     - /bin/cp -R _img $DEPLOYPATH
     - /bin/cp -R _css $DEPLOYPATH
+    - /bin/cp -R _js $DEPLOYPATH
     # Add _audio and _css if needed
